@@ -1,0 +1,8 @@
+BootStrap: docker
+From: bamos/openface
+
+%post
+	cp -r /root/openface /workspace/
+
+%runscript
+	echo "OpenFace"
